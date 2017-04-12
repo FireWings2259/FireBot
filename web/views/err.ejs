@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <% if (err == 401) {%><title>401 Error</title><% }; %>
+    </head>
+    <body>
+        <% if (err == 401) { %>
+            <h1>Woh! Error!?</h1>
+            <p>Soo um you should not be here...
+            <br>Your token probobly has exspired or your tring to break my stuff...
+            <br>Just get a new token by running your config command!
+            <br>Ta!</p>
+        <% }; %>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"botinfo": {
+		"token": "Token Here",
+		"client_id": "client id for invite link gen",
+		"maintainer":"Your user id here"
+	},
+	
+	"Config": {
+		"DelOldServers": true,
+		"WebServer":false,
+		"Host_URL":"localhost",
+		"Host_Port":"8080",
+		"SessionKey":"Changing this would be a good idea... it just must be a collection of letters & numbers000"
+	}
+}

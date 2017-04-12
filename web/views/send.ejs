@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Send Message</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+    <script>
+      $(document).ready(function(){
+        var user,pass;
+        $("#submit").click(function(){
+          message=$("#message").val();
+          $.post("http://discord-unitybot-firecode2259.c9users.io:8080/sgmsg",{message: message,});
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Send Message!</h1>
+    <input type="TEXT" id="message" size="40"><br>
+    <input type="button" id="submit" value="Submit">
+    <a href="dash">Back to Dash</a>
+  </body>
+</html>
